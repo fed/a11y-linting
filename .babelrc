@@ -1,0 +1,6 @@
+{
+  "plugins": [
+    // ↓↓ defined last ↓↓
+    "@compiled/babel-plugin"
+  ]
+}
