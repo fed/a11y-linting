@@ -322,6 +322,11 @@
     postcss-selector-parser "^6.0.11"
     postcss-values-parser "^6.0.2"
 
+"@compiled/eslint-plugin@^0.7.0":
+  version "0.7.0"
+  resolved "https://packages.atlassian.com/api/npm/npm-remote/@compiled/eslint-plugin/-/eslint-plugin-0.7.0.tgz#6c2671c0a363c85056c469e0e3ad5f3b7fdb0fec"
+  integrity sha512-6rCywZH+OLRX9ZMkSRtRj554vuPCRvUEAz7wEj6MX8nAL69HOtOFrX4GaYWqYl6UcUgnen2vcDZ1A5mpRR8GAg==
+
 "@compiled/parcel-config@^0.3.1":
   version "0.3.1"
   resolved "https://packages.atlassian.com/api/npm/npm-remote/@compiled/parcel-config/-/parcel-config-0.3.1.tgz#abc86a9855de2d672249b9f209554dd063a41d50"

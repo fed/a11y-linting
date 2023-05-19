@@ -1,5 +1,6 @@
-import React from "react";
-import { styled } from "@compiled/react";
+import React from 'react';
+import { styled } from '@compiled/react';
+import { Lozenge } from './lozenge';
 
 const Button = styled.span`
   border-radius: 3px;
@@ -26,6 +27,8 @@ const Image = styled.img`
 export function App() {
   return (
     <Container>
+      <Lozenge primary>Hello!</Lozenge>
+      <Lozenge>Hello!</Lozenge>
       <Button onClick={() => {}}>Normal Button</Button>
       <Image src="https://github.com/fed.png" />
     </Container>
