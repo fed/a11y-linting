@@ -10,6 +10,7 @@
     "lint": "eslint src/**.tsx"
   },
   "dependencies": {
+    "@atlaskit/tokens": "^1.4.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

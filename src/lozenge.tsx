@@ -1,21 +1,18 @@
 /** @jsxImportSource @compiled/react */
 import React from 'react';
+import { token } from '@atlaskit/tokens';
 
-interface Props {
-  type: 'primary' | 'default';
-  children: string;
-}
-
-export const Lozenge: React.FC<Props> = (props) => (
+export const Lozenge = (props) => (
   <span
     css={[
       props.type === 'primary' && {
-        border: '3px solid pink',
-        color: 'pink',
+        border: `3px solid ${token('color.text.success')}`,
+        color: token('color.text.success'),
       },
       props.type === 'default' && {
-        border: '3px solid blue',
-        color: 'blue',
+        border: `3px solid ${token('color.border.discovery')}`,
+        color: token('color.text.discovery'),
+        backgroundColor: token('color.background.accent.purple.subtler'),
       },
       {
         padding: '4px 8px',
