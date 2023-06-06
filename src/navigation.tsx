@@ -18,17 +18,17 @@ export function Navigation() {
   return (
     <ul css={{ padding: `12px`, listStyleType: 'none', margin: 0 }}>
       <li>
-        <a href="/about" css={linkStyles}>
+        <a href="/flights" css={linkStyles}>
           Flights
         </a>
       </li>
       <li>
-        <a href="/about" css={linkStyles}>
+        <a href="/hotels" css={linkStyles}>
           Hotels
         </a>
       </li>
       <li>
-        <a href="/about" css={linkStyles}>
+        <a href="/cars" css={linkStyles}>
           Cars
         </a>
       </li>
